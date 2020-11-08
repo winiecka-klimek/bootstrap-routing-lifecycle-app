@@ -11,7 +11,7 @@ export class TodoItemComponent implements OnInit {
   }
   ngOnInit(): void {
   }
-  buttonHasBeenClicked() {
+  buttonHasBeenClicked(): void {
     this.onChange.emit();
   }
 }
